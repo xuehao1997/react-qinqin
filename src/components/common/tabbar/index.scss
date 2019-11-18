@@ -1,0 +1,39 @@
+@import '../../../assets/style/border.scss';
+@import '../../../assets/style/theme.scss';
+
+footer {
+    height:.48rem;
+    @include border( #ccc , 1px 0 0 0 );
+    ul {
+        display:flex;
+        margin:0;
+        padding: 0;
+        justify-content: space-around;
+        align-items: center;
+        height:100%
+        }
+        li {
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                i {
+                    margin-bottom: .04rem;
+
+                }
+                span {
+                    font-size:.12rem;
+                    color:#666;
+                }
+                &.active {
+                    i{
+                        color:$theme;
+                    }
+                    span {
+                        color:$theme;
+                        font-weight: bold;
+                    }
+                }
+            }        
+        }
+}

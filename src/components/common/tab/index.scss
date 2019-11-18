@@ -1,0 +1,19 @@
+@import '../../../assets/style/theme.scss';
+
+header {
+    height:.505rem;
+    background: $theme;
+    display: flex!important;
+    align-items: center;
+    padding: 0 .15rem;
+    i{
+        color: white;
+        font-size: .30rem;
+        margin-right: .15rem;
+    }
+    span {
+        color: white;
+        font-size: .18rem;
+        flex: 1;
+    }
+}

@@ -1,0 +1,16 @@
+.container {
+    ul{
+        //处理底下的路由导航会随着列表滚动上去
+        overflow: auto;
+        height: 100%;
+        li{
+            a{
+                display: flex;
+                img {
+                    width: 1.26rem;
+                    height: 1.26rem;
+                }
+            }
+        }
+    }
+}
